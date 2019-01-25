@@ -4,6 +4,6 @@ Bundler.require
 require'csv'
 
 $:.unshift File.expand_path("./../lib", __FILE__)
-require 'Game'
+require 'app/game'
 
 Game.new.turn
